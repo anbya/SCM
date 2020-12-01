@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import "./assets/font-awesome/css/font-awesome.min.css";
+import 'react-data-table-component-extensions/dist/index.css';
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
